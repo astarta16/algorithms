@@ -6,7 +6,6 @@ function progression(n) {
 }
 console.log(progression(5));
 
-// 2. ციკლის გამოყენებით
 function sumOfNumbers(n) {
   let sum = 0;
   for (let i = 1; i <= n; i++) {
@@ -20,40 +19,40 @@ console.log(sumOfNumbers(2));
 //3. N-ური ზომის მასივის შებრუნება (მასივის ელემენტების რიგის შეცვლა).
 function reverseArray(arr) {
   let left = 0;
-  let right = arr.length - 1; 
+  let right = arr.length - 1;
 
   while (left < right) {
-    let temp = arr[left]; 
-    
-    arr[left] = arr[right];
-    arr[right] = temp; 
+    let temp = arr[left];
 
-    left++; 
-    right--; 
+    arr[left] = arr[right];
+    arr[right] = temp;
+
+    left++;
+    right--;
   }
 
-  return arr; 
+  return arr;
 }
 
 let array = [1, 2, 3, 4, 5];
 console.log(reverseArray(array));
 
-//4. ლუწი რიცხვების რაოდენობის  პოვნა მასივში 
+//4. ლუწი რიცხვების რაოდენობის  პოვნა მასივში
 function countEvenNumbers(arr) {
-  let count = 0
-  for(let i=0; i < arr.length; i++) {
-    if(arr[i] % 2 === 0) {
-      count ++
+  let count = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      count++;
     }
   }
-  return count
+  return count;
 }
 
-console.log(countEvenNumbers([1, 2, 3, 4, 5, 6]))
+console.log(countEvenNumbers([1, 2, 3, 4, 5, 6]));
 
 //N5 სტრინგის მოტრიალება მეთოდით
 function reverseString(str) {
-  return str.split('').reverse().join('');
+  return str.split("").reverse().join("");
 }
 
 console.log(reverseString("hello"));
