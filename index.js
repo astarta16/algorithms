@@ -39,7 +39,7 @@ function reverseArray(arr) {
 let array = [1, 2, 3, 4, 5];
 console.log(reverseArray(array));
 
-// ლუწი რიცხვების რაოდენობის  პოვნა მასივში 
+// ლუწი რიცხვების რაოდენობის  პოვნა ერეიში 
 function countEvenNumbers(arr) {
   let count = 0
   for(let i=0; i < arr.length; i++) {
