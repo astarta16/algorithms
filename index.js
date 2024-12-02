@@ -52,4 +52,9 @@ function countEvenNumbers(arr) {
 
 console.log(countEvenNumbers([1, 2, 3, 4, 5, 6]))
 
-//ახალი ალგორითმები
+//სტრინგის რივერსია
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+console.log(reverseString("hello"));
