@@ -17,7 +17,7 @@ function sumOfNumbers(n) {
 
 console.log(sumOfNumbers(2));
 
-// N ზომის მასივის შებრუნება (მასივის ელემენტების რიგის შეცვლა).
+//3. N ზომის მასივის შებრუნება (მასივის ელემენტების რიგის შეცვლა).
 function reverseArray(arr) {
   let left = 0;
   let right = arr.length - 1; 
