@@ -51,7 +51,7 @@ function countEvenNumbers(arr) {
 
 console.log(countEvenNumbers([1, 2, 3, 4, 5, 6]))
 
-//N5.სტრინგის მოტრიალება მეთოდით
+//N5 სტრინგის მოტრიალება მეთოდით
 function reverseString(str) {
   return str.split('').reverse().join('');
 }
