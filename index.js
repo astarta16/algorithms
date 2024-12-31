@@ -6,7 +6,7 @@ function progression(n) {
 }
 console.log(progression(5));
 
-// 2. ციკლის გამოყენებით
+// N2. ციკლის გამოყენებით
 function sumOfNumbers(n) {
   let sum = 0;
   for (let i = 1; i <= n; i++) {
